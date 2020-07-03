@@ -1,0 +1,16 @@
+/* purgecss start ignore */
+@tailwind  base;
+@tailwind  components;
+/* purgecss end ignore */
+
+@tailwind  utilities;
+
+.text-xxs {
+    font-size: .71rem;
+}
+
+.bg-gradient {
+    background: #eac79d; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #eac79d, #a1b7d4); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #eac79d, #a1b7d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
