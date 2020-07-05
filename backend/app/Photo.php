@@ -12,7 +12,7 @@ class Photo extends Model
      * @var array
      */
     protected $fillable = [
-        'assigned_id', 'title', 'description', 'img', 'featured', 'taken_at', 'gallery_id',
+        'title', 'description', 'img', 'featured', 'taken_at', 'gallery_id',
     ];
     
     /**

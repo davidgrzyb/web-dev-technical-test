@@ -31,7 +31,6 @@ class PhotoController extends Controller
     public function store(CreateOrUpdatePhotoRequest $request)
     {
         $photo = Photo::create([
-            'assigned_id' => $request->id,
             'title' => $request->title,
             'description' => $request->description,
             'img' => $request->img,
@@ -67,7 +66,6 @@ class PhotoController extends Controller
         $photo = Photo::findOrFail($id);
 
         $photo->update([
-            'assigned_id' => $request->id,
             'title' => $request->title,
             'description' => $request->description,
             'img' => $request->img,
