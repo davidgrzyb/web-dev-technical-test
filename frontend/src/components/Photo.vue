@@ -6,7 +6,7 @@
         </div>
         <div class="flex flex-col px-6 pt-1 pb-4">
             <p class="text-xxs text-gray-600 text-justify">{{ photo.description }}</p>
-            <div :class="photo.featured ? 'justify-between' : 'justify-end'" class="flex items-center pt-1">
+            <div :class="photo.featured ? 'justify-between' : 'justify-end mt-1'" class="flex items-center pt-1">
                 <span v-if="photo.featured">❤️</span>
                 <span class="text-xxs text-gray-500">{{ photo.date }}</span>
             </div>
