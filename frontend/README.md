@@ -1,4 +1,6 @@
-# frontend
+# Frontend Vue.js Application
+
+This application uses TailwindCSS and Vue.js to asynchronously read the `landscapes.js` file and output it in the requested design.
 
 ## Project setup
 ```
