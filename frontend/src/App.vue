@@ -26,6 +26,12 @@ export default {
 		return {
 			loading: true,
 			error: null,
+			name: null,
+			bio: null,
+			phone: null,
+			email: null,
+			picture: null,
+			album: null
 		}
 	},
 	methods: {
@@ -50,7 +56,7 @@ export default {
 			}
 		}
 	},
-	mounted() {
+	created() {
 		this.getData()
 	},
 	components: {
