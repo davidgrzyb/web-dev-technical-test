@@ -72,7 +72,6 @@ class ImportDataFromJsonFileCommand extends Command
         // Loop over album items and save them as photos.
         foreach ($data['album'] as $photo) {
             Photo::create([
-                'assigned_id' => $photo['id'],
                 'title' => $photo['title'],
                 'description' => $photo['description'],
                 'img' => $photo['img'],

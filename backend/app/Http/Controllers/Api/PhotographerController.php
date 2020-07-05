@@ -48,7 +48,6 @@ class PhotographerController extends Controller
         // Loop over album items and save them as photos.
         foreach ($request->album as $photo) {
             Photo::create([
-                'assigned_id' => $photo['id'],
                 'title' => $photo['title'],
                 'description' => $photo['description'],
                 'img' => $photo['img'],
